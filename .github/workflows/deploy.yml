@@ -23,7 +23,7 @@ jobs:
           script: |
             cd /home/ubuntu || exit 1
 
-            if [ ! -d "backend-sece-Aiml" ]; then
+            if [ ! -d "Focus-backend" ]; then
               git clone https://github.com/Harinid27/Focus-backend.git
             fi
 
